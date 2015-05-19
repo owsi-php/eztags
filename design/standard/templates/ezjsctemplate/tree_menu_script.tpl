@@ -190,7 +190,7 @@ function TagsStructureMenu( path, persistent, attr_id )
             {
                 var html = '<ul>';
                 // Generate html content
-                for ( var i = 0, l = data.children_count; i < l; i++ )
+                for ( var i = 0, l = data.children.lenght; i < l; i++ )
                 {
                     html += thisThis.generateEntry( data.children[i], i == l - 1, false );
                 }
